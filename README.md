@@ -446,7 +446,8 @@ df['Month_name'] = pd.Categorical(df['Month_name'], categories= month_order, ord
 df = df.sort_values('Month_name')
 
 #Monthly complaints
-df['Month_name'].value_counts().plot(kind = 'bar')
+plt.figure(figsize=(10, 4))
+sns.countplot(data=df, x='Month_name')
 plt.xlabel('Month')
 plt.ylabel('Count')
 plt.title('Monthly Complaints')
