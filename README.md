@@ -504,6 +504,15 @@ counts = df['Issue_Category'].value_counts()
 percents = (counts / counts.sum()) * 100
 print(percents)
 
+#Issue group distibution
+df['Issue_Category'].value_counts().plot(kind='barh')
+
+#Top 10 issue complaint
+df['Issue_Category'].value_counts().head(10).plot(kind='barh')
+plt.xlabel('Issue')
+plt.ylabel('Count')
+plt.title('Top 10 Issue Complaints')
+
 #Compare issues across years
 #There was a peak in all complains in 2022 and 2017 has the least of complaints
 df[['Complaint year', 'Issue_Category']].value_counts().unstack().plot(kind = 'line', stacked=True)
