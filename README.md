@@ -610,7 +610,12 @@ plt.title('Processing lag by product')
 #Relationship Analysis
 #Product and response outcome
 #Company response did not vary across product as more than 90% of complains were resolved and extremely few are still pending.
-pd.crosstab(df['Product'], df['Company response to consumer'])
+plt.figure(figsize=(7, 4))
+reponse = pd.crosstab(df['Product'], df['Company response to consumer'])
+sns.heatmap(reponse, annot=True, fmt='d', cmap='Blues')
+plt.title('Product vs Response')
+plt.show()
+
 #Issue and timely response
 #All products have a large number of timely response with over 90%
 percent = pd.crosstab(df['Issue_Category'], df['Timely response?'],
