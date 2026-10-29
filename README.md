@@ -96,6 +96,14 @@ Feature engineering was performed to create additional variables that would supp
 
 Exploratory Data Analysis was conducted to identify complaint patterns, understand customer concerns, and examine the distribution of complaints across different variables.
 
+***Customer Complaints Overview Dashboard***
+![Customer Complaints Overview Dashboard](https://github.com/oyekolaqudirat-cmd/Customer-Complaint-Analysis/blob/main/Overview.png)
+
+
+***Customer Complaints Analysis Dashboard***
+![Customer Complaints Analysis Dashboard](https://github.com/oyekolaqudirat-cmd/Customer-Complaint-Analysis/blob/main/Complaint%20Analysis.png)
+
+
 ***Complaint Volume Analysis***
 
 ***Business Questions:***
