@@ -114,9 +114,9 @@ Interpretation: With a total of 62,516 complaints recorded, some products have h
 - Which months recorded the highest and lowest complaint volumes?
 - Are there noticeable increases or decreases in complaint submissions?
   
-Analysis: Analysed complaint counts by year and month using time-series visualizations.
+Analysis: Analyzed complaint counts by year and month using time-series visualizations. From the analysis, it is noticed that complaints increased over the years.
 
-Interpretation: Complain volume increased over the years, July recorded the highest while February has the least.
+Interpretation: Complain volume increased over the years, with 1743 complaints recorded in July 2023 while December 2018 has the least with 400 complaints.
 
 **Monthly Complaint trend**
 ![Monthly Complaints Trend](https://github.com/oyekolaqudirat-cmd/Customer-Complaint-Analysis/blob/main/Monthly%20Complaints.png)
@@ -134,7 +134,7 @@ Interpretation: Complain volume increased over the years, July recorded the high
   
 Analysis: Grouped similar complaint descriptions into broader categories and examined their frequency distribution.
 
-Interpretation: Account and card management is the frequently reported issue and the largest proportion of complaints.
+Interpretation: The most reported customer issue is managing an account while the highest category is account and card management.
 
 **Top 10 Complaints**
 ![Top 10 complaint issue](https://github.com/oyekolaqudirat-cmd/Customer-Complaint-Analysis/blob/main/Top%2010%20complaint%20issue.png)
@@ -192,7 +192,7 @@ Relationship analysis was conducted to explore patterns between selected variabl
 The analysis revealed the following findings:
 - Complaint Distribution: Checking/Saving account is the product with most complain with 24,814 complaints.
 - Recurring Customer Issues: The frequently reported issues are account and card management and payment and transaction issue with 40 and 17 percent respectively.
-- Complaint Trends: The year with significant rise in complaints with 20% is 2022.
+- Complaint Trends: 2022 has a 20% rise in complaints
 - Customer Service Response: All complains have over 90% record of timely response.
 - Relationship Patterns: Product and response relationship: Company response did not vary across product as more than 90% of complains were resolved and extremely few are still pending. Relationship pattern between submission channel and processing lag indicated that most complaints were sent to the company by CFPB in less than one day.
           
