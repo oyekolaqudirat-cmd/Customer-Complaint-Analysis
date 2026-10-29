@@ -694,4 +694,11 @@ plt.show()
 df.head()
 
 df.info()
+
+#Saving data frame to CSV
+df.to_csv('Customer Complaint Analysis', index=False)
+
+#Download Directly to my computer
+from google.colab import files
+files.download('Customer Complaint Analysis')
 ```
